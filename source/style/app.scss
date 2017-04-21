@@ -1,5 +1,6 @@
-body {
-  margin: 0;
-}
+@import 'variabels.scss';
+@import 'mixins.scss';
+@import 'sprite-png.scss';
+@import 'utils.scss';
+@import 'common/**/*.scss';
 
-@import 'common/greating';
