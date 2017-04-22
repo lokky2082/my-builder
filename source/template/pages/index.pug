@@ -2,6 +2,9 @@ extends ../_template
 
 block variables
   - var title = 'Home page'
-
+  - var test = skills
+  - console.log(skills)
 block content
+  p #{test}
   include ../common/_greating
+
